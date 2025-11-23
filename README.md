@@ -23,3 +23,32 @@ A **smart desktop organizer** that automatically sorts your messy files by **rea
 3. Applies **categorization logic** and moves files to the appropriate folder.  
 
 **Example Folders:**
+/Downloads
+invoice1.pdf → /Finance
+screenshot.png → /Notes
+photo.jpg → /Personal
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3.11+**  
+- **OS & shutil modules** for file operations  
+- **Gemini Vision / AI API** for image & text analysis  
+- Optional: **Watchdog** for real-time folder monitoring  
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/contextual-desktop-cleaner.git
+cd contextual-desktop-cleaner
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the agent
+python cleaner_agent.py
